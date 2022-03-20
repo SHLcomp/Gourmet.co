@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: -1px;
+}
+
+li{
+    list-style: none;
+}
+.a{
+    color: rgb(172, 153, 49);
+    text-decoration: none;
+}
+#chosen{
+    text-decoration: underline black;
+}
+
+.nav-item:nth-child(1){
+    padding: 0 25px;
+}
+.nav-branding{
+    color: rgb(172, 153, 49);
+    font-style: bold;
+    font-size: 2.8rem;
+    text-decoration: none;
+}
+.nav-logo{
+    padding: 23px 20px;
+}
+.nav-bar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 24px;
+}
+.nav-menu, .nav-branding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    transition: 0.3s;
+}
+.nav-menu{
+    width: 100%;
+    padding: 0 130px;
+}
+.a{
+    transition: 0.5s ease;
+}
+
+
+.a:hover{
+    color: rgb(158, 24, 24);
+    font-style: bold;
+}
+
+.burg{
+    display: none;
+    cursor: pointer;
+}
+
+
+.bar{
+    display: block;
+    width: 46px;
+    height: 6px;
+    margin: 5px auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+}
+
+.image{
+    position: absolute;
+    top: 3cm;
+    left: 6cm;
+    width: 900px;
+    height: 504px;
+    display: inline;
+}
+.on-pic{
+    position: absolute;
+    top: 9cm;
+    left: 13cm;
+    color: black;
+    text-decoration: bold;
+    font-style: bold;
+    background-color: antiquewhite;
+    font-size: 4rem;
+}
+.img-ourstory{
+    position: absolute;
+    width: 652px;
+    height: 367px;
+    top: 19cm;
+    left: 14cm;
+}
+
+.p-ourmenu{
+    position: absolute;
+    top: 11cm;
+    left: 11cm;
+    font-size: 1.4rem;
+    color: white;
+}
+.btn-ourstory{
+    position: absolute;
+    top: 26cm;
+    left: 5cm;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn-ourstory:hover{
+    background-color: wheat;
+}
+.dish1{
+    position: absolute;
+    top: -2cm;
+    left: -6cm;
+}
+.dish2{
+    position: absolute;
+    top: -2cm;
+    left: 1.7cm;
+
+}
+.dish3{
+    position: absolute;
+    top: -2cm;
+    left: 10cm;
+
+}
+.all-kinds{
+    position: absolute;
+    top: 20cm;
+    left: 1cm;
+    display: flex;
+    gap: 8cm;
+}
+.all-kinds2{
+    position: absolute;
+    top: 26cm;
+    left: 1cm;
+    display: flex;
+    gap: 8cm;
+}
+.all-kinds3{
+    position: absolute;
+    top: 32cm;
+    left: 8cm;
+    display: flex;
+    gap: 8cm;
+}
+.all-kinds4{
+    position: absolute;
+    top: 37cm;
+    left: 8cm;
+    display: flex;
+    gap: 8cm;
+}
+.all-kinds5{
+    position: absolute;
+    top: 42cm;
+    left: 8cm;
+    display: flex;
+    gap: 8cm;
+}
+.all-kinds6{
+    position: absolute;
+    top: 47cm;
+    left: 8cm;
+    display: flex;
+    gap: 8cm;
+}
+.all-kinds7{
+    position: absolute;
+    top: 54cm;
+    left: 8cm;
+    display: flex;
+    gap: 8cm;
+}
+ .item-kind{
+     color: rgb(172, 153, 49);
+     width: 5cm;
+ }   
+
+ .p-items{
+     position: absolute;
+     top: 21cm;
+     left: 1cm;
+     display: flex;
+     gap: 4cm;
+ }
+ .p-items2{
+    position: absolute;
+    top: 27cm;
+    left: 1cm;
+    display: flex;
+    gap: 4cm;
+}
+.p-items3{
+    position: absolute;
+    top: 33cm;
+    left: 7cm;
+    display: flex;
+    gap: 4cm;
+    width: 18cm;
+}
+.p-items4{
+    position: absolute;
+    top: 38cm;
+    left: 7cm;
+    display: flex;
+    gap: 4cm;
+    width: 18cm;
+}
+.p-items5{
+    position: absolute;
+    top: 43cm;
+    left: 7cm;
+    display: flex;
+    gap: 4cm;
+    width: 18cm;
+}
+.p-items6{
+    position: absolute;
+    top: 48cm;
+    left: 7cm;
+    display: flex;
+    gap: 4cm;
+    width: 18cm;
+}
+.p-items7{
+    position: absolute;
+    top: 55cm;
+    left: 7cm;
+    display: flex;
+    gap: 4cm;
+    width: 18cm;
+}
+.ourmenu{
+    position: absolute;
+    top: 18cm;
+    left: 15cm;
+    color: rgb(172, 153, 49) ;
+}
+.ourmenu-main{
+    position: absolute;
+    top: 30cm;
+    left: 15cm;
+    color: rgb(172, 153, 49) ;
+}.ourmenu-dessert{
+    position: absolute;
+    top: 52cm;
+    left: 15cm;
+    color: rgb(172, 153, 49);
+}
+
+.conatct{
+    position: absolute;
+    top: 60cm;
+    left: 11cm;
+    padding: 0.6cm 7cm;
+    margin: -2cm 0;
+    background-color: rgb(255, 245, 196);
+}
+.hidden{
+    color: transparent;
+    position: absolute;
+    top: 63cm;
+    width: 20%;
+}
+
+
+@media screen and (min-width: 200px) and (min-height: 400px) and (max-width: 800px) and (max-height: 800px){
+    
+
+    
+     
+        .burg{
+            display: block;
+            margin: 10px -20px;
+        }
+    
+        
+    .nav-logo{
+        position: absolute;
+        left: -14px;
+        top: -7px;
+    }
+    
+    .burg.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .burg.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burg.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position:  fixed;
+        right: -100%;
+        top: 69px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(179, 170, 98);
+        width: 100%;
+        text-align: center;
+        transition: 0.5s; 
+    }
+    .nav-item:hover{
+        color: rgb(158, 24, 24);
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        right: 0;
+    }
+    .nav-branding{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .nav-bar{
+        min-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0 100px;
+    }
+    .image{
+        position: absolute;
+        top: 3cm;
+        left: 2cm;
+        width: 535px;
+        height: 317px;
+        display: inline;
+    }
+    .img-ourstory{
+        position: absolute;
+        width: 326px;
+        height: 183.5px;
+        top: 13cm;
+        left: 8.5cm;
+        border: black 4px;
+    }
+    
+.ourstory{
+    color: rgb(172, 153, 49);
+    font-size: 2rem;
+    position: absolute;
+    top: 13cm;
+    left: 1cm;
+}
+.p-ourstory{
+    position: absolute;
+    top: 15cm;
+    left: 1cm;
+    width: 300px;
+}
+.btn-ourstory{
+    position: absolute;
+    top: 19cm;
+    left: 3cm;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn-ourstory:hover{
+    background-color: wheat;
+}
+.dish2{
+    width: 233.4px;
+    height: 212px;
+    padding: 0 20px;
+}
+.all-dishes{
+    position: absolute;
+    top: 26cm;
+    left: 1cm;
+    display: list-item;
+}
+
+
+.ourspecialties{
+    position: absolute;
+    top: 22cm;
+    left: 10cm;
+    width: 100%;
+}
+.p-ourspecialties{
+    position: absolute;
+    top: 24cm;
+    left: 7cm;
+    font-size: 1rem;
+    width: 100%;
+}
+.dish1{
+    padding: 20px;
+}
+.dish2{
+    padding: 20px;
+}
+.dish3{
+    padding: 20px;
+}
+
+}
